@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Visual Portfolio 2025</title>
+  <meta name="description" content="A modern, high-end editorial portfolio.">
+
+  <!-- Google Fonts: Oswald (Headings), Outfit (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Smooth Preloader -->
+  <div id="loader" class="loader-overlay">
+    <div class="loader-content">
+      <span class="loader-title">INITIALIZING</span>
+      <div class="loader-spinner"></div>
+      <div class="loader-text-group">
+        <span class="loader-subtitle">Loading Engine</span>
+        <span id="loader-percent" class="loader-percent">0%</span>
+      </div>
+      <div class="loader-bar-track">
+        <div id="loader-fill" class="loader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll-driven Canvas Animation (full-viewport sticky background) -->
+  <div class="canvas-sticky-container">
+    <canvas id="animation-canvas"></canvas>
+    <div class="vignette-overlay"></div>
+    <div class="blue-glow-overlay"></div>
+  </div>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav">
+    <div class="nav-logo">
+      <span class="logo-mark">YP</span>
+    </div>
+    <div class="nav-links">
+      <a href="#about" class="nav-link active">PROFIL</a>
+      <a href="#projects" class="nav-link">PROJECT</a>
+      <a href="#contact" class="nav-link">CONTACT PERSON</a>
+    </div>
+  </nav>
+
+  <!-- Main Scrollable Content Container -->
+  <main class="portfolio-container">
+
+    <!-- ==============================================================
+         01. HERO SECTION
+         ============================================================== -->
+    <!-- Hero anchor — sits just below the animation scroll space -->
+    <section class="hero-section" id="hero">
+      <div class="hero-text-block">
+        <h1 class="hero-title">PORTFOLIO <span class="year">2025-2026</span></h1>
+        <div class="role-badge">
+          <span class="square-icon"></span>
+          VIDEO EDITOR
+        </div>
+        <div class="hero-menu">
+          <a href="#about" class="menu-item">START</a>
+          <a href="#projects" class="menu-item">OPTIONS</a>
+          <a href="#contact" class="menu-item">EXIT</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         02. ABOUT SECTION
+         ============================================================== -->
+    <section class="about-section" id="about">
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-greeting">HELLO, I AM<br><span class="highlight">SHIVAM YADAV</span></div>
+        </div>
+        <div class="about-info-col">
+          <h2 class="section-heading">ABOUT ME</h2>
+          <p class="about-desc">
+            HI, I'M SHIVAM YADAV, I'M BACK MAKING A PORTFOLIO AT THE END OF THE YEAR. I LEARNED A LOT OF THINGS FROM EDITING: FROM GRAPHIC DESIGN, VIDEO, TYPOGRAPHY AND OTHERS ABOUT EDITING. I LEARNED FROM 2025 AUTODIDACTED, AND I HAVE A LITTLE EDITING SKILL THAT I LEARNED FROM YEAR TO YEAR.
+          </p>
+          
+          <h3 class="sub-heading mt-4">SOFTWARE SKILLS</h3>
+          <div class="skills-icons">
+            <div class="skill-icon ps">Ps</div>
+            <div class="skill-icon lr">Lr</div>
+            <div class="skill-icon pr">Pr</div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-block">
+              <h3 class="sub-heading">EDUCATION</h3>
+              <ul class="stat-list">
+                <li>
+                  <span class="stat-date">2025 - 2026</span>
+                </li>
+              </ul>
+              
+              <h3 class="sub-heading mt-4">LANGUAGE ( HINDI )</h3>
+              <ul class="stat-list inline-list">
+                <li><span>HINDI</span> <span class="percent">100%</span></li>
+                <li><span>ENGLISH</span> <span class="percent">30%</span></li>
+              </ul>
+            </div>
+            <div class="stat-block">
+              <h3 class="sub-heading">EXPERIENCE</h3>
+              <ul class="stat-list">
+                <li>
+                  <strong>INAGRAM CONTENT</strong>
+                  <span class="stat-sub">Get Followers 1000K+ ( 1 JULI - 25 DEC )</span>
+                  <span class="stat-sub">PREMIERE PRO EDITOR</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         03. PROJECTS SECTION
+         ============================================================== -->
+    <section class="projects-section" id="projects">
+      <div class="projects-header">
+        <h2 class="section-heading text-center">RECAP PROJECT 2025-2026 <span class="badge">VIDEO EDITS</span></h2>
+      </div>
+      
+      <!-- Featured Video (Project 02 separated) -->
+      <div class="featured-video-container">
+        <div class="video-card featured-video">
+          <video src="DM YOUR EDIT .....video editor motion designer graphic designer freelancer AI Editor.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 02</span>
+            <span class="video-tag">VIDEO EDITOR • MOTION DESIGNER • AI EDITOR</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="video-grid">
+        <div class="video-card">
+          <video src="DM YOUR EDIT .... VIDEO EDITAR  MOTION DESIGNERGRAPHIC DESIGNERFREELANSER.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 01</span>
+            <span class="video-tag">MOTION DESIGNER • GRAPHIC DESIGNER • FREELANCER</span>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <video src="DM your edit ...video editor graphic designer motion designer freelancerAI editor.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 03</span>
+            <span class="video-tag">GRAPHIC DESIGNER • MOTION DESIGNER • AI EDITOR</span>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <video src="DM YOUR EDIT ..video editor graphic designer motion designer freelancer 💯❤️.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 04</span>
+            <span class="video-tag">VIDEO EDITOR • GRAPHIC DESIGNER • FREELANCER</span>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <video src="dm your edit video editor graphic designer motion designer freelancer.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 05</span>
+            <span class="video-tag">VIDEO EDITOR • GRAPHIC DESIGNER • FREELANCER</span>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <video src="dm your edit video editor graphic designermotion designerfreelancer.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 06</span>
+            <span class="video-tag">GRAPHIC DESIGNER • MOTION DESIGNER • FREELANCER</span>
+          </div>
+        </div>
+
+        <div class="video-card">
+          <video src="Dm your edit ,,,,,video editor motion designer graphic designer freelancer.mp4" loop playsinline controls autoplay muted onmouseenter="this.muted=false" onmouseleave="this.muted=true"></video>
+          <div class="video-overlay">
+            <span class="video-label">VIDEO EDIT 07</span>
+            <span class="video-tag">VIDEO EDITOR • GRAPHIC DESIGNER • FREELANCER</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================================
+         04. CONTACT SECTION
+         ============================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h2 class="section-heading text-center mb-4">CONTACT ME</h2>
+          <div class="contact-avatar-wrapper">
+            <div class="contact-avatar">
+              <img src="6 polaroids hanging in space nature clear details ecology photos stylize 1000 _ Premium AI-generated image.jpg" alt="Contact Avatar" />
+            </div>
+            <div class="social-links">
+              <a href="#" class="social-btn">IG</a>
+              <a href="#" class="social-btn">TK</a>
+              <a href="#" class="social-btn">YT</a>
+              <a href="#" class="social-btn">PT</a>
+            </div>
+          </div>
+          <div class="contact-name text-center mt-3">SHIVAM YADAV<br><span class="text-muted">21</span></div>
+        </div>
+        
+        <div class="thank-you-block">
+          <h1 class="huge-title">THANK YOU<br>2025</h1>
+        </div>
+      </div>
+      
+      <div class="bottom-gallery">
+        <div class="gallery-item"><img src="assets/project_velvet.jpg" alt="G1"></div>
+        <div class="gallery-item"><img src="assets/project_mindspace.jpg" alt="G3"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
